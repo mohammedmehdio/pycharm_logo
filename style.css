@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{background-color: rgba(1, 0, 0, 0.813);}
+#bg{
+    position : relative;
+    top:150px;
+    background-image: linear-gradient(to right bottom ,rgb(255, 255, 255), green  ,yellow 30%);
+    height:200px;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+#black{
+    position: relative;
+    background-color: black;
+    height:170px;
+    width: 170px;
+    border-width: 5px; 
+    border-style: solid;
+    border-image: linear-gradient(to right bottom , green  ,yellow 60%) 1;
+}
+
+h1{
+    color:white;
+    font-size: 110px;
+    font-family: 'open sans';
+    position: absolute;
+    top: -103px;
+}
+
+#bar{
+   background-color: white;
+    height: 10px;
+    width: 80px;
+    position: absolute;
+    top: 149px;
+    left: 14px ;
+    border-radius: 2px;
+}
